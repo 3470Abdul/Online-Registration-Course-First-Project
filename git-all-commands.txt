@@ -6,3 +6,14 @@ git status //For checking status if files colour is red its means that files are
 git add //For staging for add file write file name with extention i.e. f1.txt for add folder write folder name i.e. abc/* for images filename*.xlxs etc
 git commit -m "Write message here"
 git log -p //For check history
+git branch  //For making branches 
+git branch -v //Used for checking branch status that in which branch we are
+git checkout //For moving one branch to another
+git add --all //For adding all files from untrack to track
+git merge //For mergin branches
+git stash //For saving work Tempreroy
+git remote add origin URL Should Write here //For local reposetory to remote reposetory
+git push origin -u --all //For push all files from local repo to remote repo
+git clone URL Should write here  //For download remote repo to local repo
+git pull //For download all remote history and log data
+git fetch //For download only your data from remote to local repo
