@@ -1,0 +1,8 @@
+git config --global user.name "user name shoud be written here"  //Used for global setting
+git config --global user.email "user email should be written here"
+git init  //Used for initializing git
+ls -la   //Used for check all the files list in git folder
+git status //For checking status if files colour is red its means that files are on untrack
+git add //For staging for add file write file name with extention i.e. f1.txt for add folder write folder name i.e. abc/* for images filename*.xlxs etc
+git commit -m "Write message here"
+git log -p //For check history
