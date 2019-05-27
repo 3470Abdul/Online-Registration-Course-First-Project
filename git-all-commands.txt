@@ -17,3 +17,6 @@ git push origin -u --all //For push all files from local repo to remote repo
 git clone URL Should write here  //For download remote repo to local repo
 git pull //For download all remote history and log data
 git fetch //For download only your data from remote to local repo
+git checkout commit-number file-name-with-extation \\This command is used for going back to older version
+git reset HEAD file-name-with-extation
+git checkout -- file-name-with-extation \\This two commands is used for going to origional version 
